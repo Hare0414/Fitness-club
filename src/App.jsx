@@ -5,6 +5,7 @@ import { Home } from './views/Home/Home.jsx'
 import { About } from './views/About/About.jsx'
 import { Gallery } from './views/Gallery/Gallery.jsx'
 import { Pricing } from './views/Pricing/Pricing.jsx'
+import { Classes} from './views/Classes/Classes.jsx'
 import './App.module.css'
 
 
@@ -18,6 +19,7 @@ function App() {
                 <Route exact path='/about' element ={ <About />} />
                 <Route exact path='/Gallery' element ={ <Gallery />} />
                 <Route exact path='/Pricing' element = { <Pricing /> } />
+                <Route exact path='/Classes' element = { <Classes /> } />
             </Routes>
         </div>
     )
