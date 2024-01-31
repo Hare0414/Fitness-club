@@ -6,7 +6,9 @@ import { About } from './views/About/About.jsx'
 import { Gallery } from './views/Gallery/Gallery.jsx'
 import { Pricing } from './views/Pricing/Pricing.jsx'
 import { Classes} from './views/Classes/Classes.jsx'
+import { Contact } from './views/Contact/Contact.jsx'
 import './App.module.css'
+import { ContactMail } from '@mui/icons-material'
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
                 <Route exact path='/Gallery' element ={ <Gallery />} />
                 <Route exact path='/Pricing' element = { <Pricing /> } />
                 <Route exact path='/Classes' element = { <Classes /> } />
+                <Route exact path='/Contact' element = { <Contact />} />
             </Routes>
         </div>
     )
