@@ -1,5 +1,5 @@
 :root {
-    --text-white: #fff;
+    --text-white: #f8eaea;
     --text-underline: #fffb00;
     --text-black: #000;
     --text-yellow: #fffb00;
@@ -8,7 +8,7 @@
     --bg-yellow: #fffb00;
     --bg-semiBlack: rgba(0, 0, 0, 0.885);
     --bg-black: #000;
-    --bg-white: #fff;
+    --bg-white: #f8e9e9;
   
     --border-black: #000;
     --border-yellow: #fffb00;
@@ -29,5 +29,5 @@
   }
   
   body {
-    background: rgb(232, 232, 232);
+    background: rgb(143, 141, 141);
   }

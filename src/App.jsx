@@ -7,12 +7,10 @@ import { Gallery } from './views/Gallery/Gallery.jsx'
 import { Pricing } from './views/Pricing/Pricing.jsx'
 import { Classes} from './views/Classes/Classes.jsx'
 import { Contact } from './views/Contact/Contact.jsx'
+import { Footer } from './components/Footer/Footer.jsx'
 import './App.module.css'
-import { ContactMail } from '@mui/icons-material'
-
 
 function App() {
-
     return (
         <div>
             <Navbar />
@@ -24,6 +22,7 @@ function App() {
                 <Route exact path='/Classes' element = { <Classes /> } />
                 <Route exact path='/Contact' element = { <Contact />} />
             </Routes>
+            <Footer />
         </div>
     )
 }
