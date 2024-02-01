@@ -7,8 +7,10 @@ body {
 .main {
   padding-left: 5%;
   margin-top: 150px;
+  margin-bottom: 80px;
   display: flex;
   height: 100%;
+  
 }
 
 /* leftContainer */

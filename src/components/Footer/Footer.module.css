@@ -30,9 +30,9 @@ body {
   
   /* leftContainer */
   .main .leftContainer img {
-    width: 70px;
-    height: 60px;
-    border-radius: 100%;
+    width: 60px;
+    height: 50px;
+    border-radius: 30%;
   }
   
   .main .leftContainer p {
@@ -56,7 +56,7 @@ body {
     height: 40px;
     background: transparent;
     border: 2px solid var(--social-border);
-    border-radius: 50%;
+    border-radius: 30%;
     font-size: 20px;
     color: var(--social-text);
     text-decoration: none;
@@ -91,8 +91,9 @@ body {
   .main .centerContainer h3 {
     padding: 10px 0;
     font-weight: 600;
-    font-size: 20px;
-    text-decoration: underline var(--text-underline) 10px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
   }
   
   .main .rightContainer p,
@@ -119,8 +120,7 @@ body {
   
     .main .rightContainer {
       padding: 50px 10px 0 20px;
-    }
-    
+    }  
   }
   
   @media (max-width: 667px) {

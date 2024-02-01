@@ -7,8 +7,9 @@
     flex-wrap: wrap;
     overflow: hidden;
     background-color: var(--bg-white);
+    border-radius:  5%;
     padding: 0;
-    margin: 5px 5px 5px 5px;
+    margin: 100px 40px 40px 40px;
 }
 
 .containerText {
@@ -21,6 +22,7 @@
 
 .containerImg {
     max-width: 50%;
+    border-radius: 20px;
     height: 100%;
     overflow: hidden;
 }
