@@ -1,0 +1,32 @@
+.main {
+    padding:0 5% 0 5%;
+}
+
+.main h1{
+    margin-top: 100px;
+    text-decoration: underline var(--text-underline) 10px;
+}
+
+.cardsContainer {
+    display: flex;
+    gap: 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--text-white);
+}
+
+.card1 {
+    background-image: url('../../images/gym13.jpg');
+}
+.card2 {
+    background-image: url('../../images/Home/Karare.jpg');
+}
+.card3 {
+    background-image: url('../../images/Home/box.jpg')
+}
+.card4 {
+    background-image: url('../../images/Home/Cycling.webp')
+}
+.card5 {
+    background-image: url('../../images/gym11.jpg');
+}
